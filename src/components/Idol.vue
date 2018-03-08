@@ -7,7 +7,7 @@
         {{ idolDetail.detail.height && `${idolDetail.detail.height} cm` }}
         {{ idolDetail.detail.weight && `, ${idolDetail.detail.weight} kg` }}
       </h6>
-      <img :src="`/images/${idolDetail.detail.id}.jpeg`" />
+      <img v-if="idolDetail.detail.id" :src="`/images/${idolDetail.detail.id}.jpeg`" />
     </div>
   </div>
 </template>
