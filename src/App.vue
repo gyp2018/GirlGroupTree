@@ -11,6 +11,7 @@
           <GirlGroupTree class="border" />
         </div>
         <div class="col">
+          <router-view></router-view>
         </div>
       </div>
     </div>
