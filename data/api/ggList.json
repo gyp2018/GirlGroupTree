@@ -4,6 +4,7 @@
       "id": "gg1",
       "name": "모모랜드",
       "eName": "MOMOLAND",
+      "debut": "2016-11-10",
       "company": "더블킥컴퍼니",
       "members": [
         {
@@ -59,6 +60,38 @@
           "name": "낸시",
           "height": 162,
           "weight": 46
+        }
+      ]
+    },
+    {
+      "id": "gg2",
+      "name": "블랙핑크",
+      "eName": "BLACKPINK",
+      "debut": "2016-08-08",
+      "company": "YG엔터테인먼트",
+      "members": [
+        {
+          "id": "idol10",
+          "name": "지수",
+          "height": 162,
+          "weight": 44
+        },
+        {
+          "id": "idol11",
+          "name": "제니",
+          "height": 163,
+          "weight": 42
+        },
+        {
+          "id": "idol12",
+          "name": "로제",
+          "height": 168,
+          "weight": 46
+        },
+        {
+          "id": "idol13",
+          "name": "리사",
+          "height": 167
         }
       ]
     }
