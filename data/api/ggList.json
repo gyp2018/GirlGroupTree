@@ -1,0 +1,66 @@
+{
+  "girlGroups": [
+    {
+      "id": "gg1",
+      "name": "모모랜드",
+      "eName": "MOMOLAND",
+      "company": "더블킥컴퍼니",
+      "members": [
+        {
+          "id": "idol1",
+          "name": "혜빈",
+          "height": 165,
+          "weight": 44
+        },
+        {
+          "id": "idol2",
+          "name": "연우",
+          "height": 170,
+          "weight": 49
+        },
+        {
+          "id": "idol3",
+          "name": "제인",
+          "height": 166.7,
+          "weight": 46
+        },
+        {
+          "id": "idol4",
+          "name": "태하",
+          "height": 164,
+          "weight": 48
+        },
+        {
+          "id": "idol5",
+          "name": "나윤",
+          "height": 168,
+          "weight": 48
+        },
+        {
+          "id": "idol6",
+          "name": "데이지",
+          "height": 163,
+          "weight": 44
+        },
+        {
+          "id": "idol7",
+          "name": "주이",
+          "height": 164,
+          "weight": 48
+        },
+        {
+          "id": "idol8",
+          "name": "아인",
+          "height": 160,
+          "weight": 44
+        },
+        {
+          "id": "idol9",
+          "name": "낸시",
+          "height": 162,
+          "weight": 46
+        }
+      ]
+    }
+  ]
+}
