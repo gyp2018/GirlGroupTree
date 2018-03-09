@@ -1,2 +1,5 @@
-export const REQUEST_IDOL = 'idolDetail/REQUEST_IDOL'
-export const RECEIVE_IDOL = 'idolDteail/RECEIVE_IDOL'
+export const REQUEST_IDOL_DETAIL = 'idolDetail/REQUEST_IDOL_DETAIL'
+export const RECEIVE_IDOL_DETAIL = 'idolDetail/RECEIVE_IDOL_DETAIL'
+
+export const REQUEST_GIRL_GROUPS = 'girlGroups/REQUEST_GIRL_GROUPS'
+export const RECEIVE_GIRL_GROUPS = 'girlGroups/RECEIVE_GIRL_GROUPS'
