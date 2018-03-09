@@ -1,22 +1,23 @@
 <template>
   <div>
     <h1>Idol Pages</h1>
-    <div>
-      <h1>{{ idolDetail.detail.name }}</h1>
-      <h6>
-        {{ idolDetail.detail.height && `${idolDetail.detail.height} cm` }}
-        {{ idolDetail.detail.weight && `, ${idolDetail.detail.weight} kg` }}
-      </h6>
-      <img v-if="idolDetail.detail.id" :src="`/images/${idolDetail.detail.id}.jpeg`" />
+    <div class="row">
+      <div class="col-4">
+        <IdolCard :idol="idolDetail.detail" />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import { mapState, mapActions } from 'vuex'
+import IdolCard from './idol/IdolCard.vue'
 
 export default {
   name: 'Idol',
+  components: {
+    IdolCard,
+  },
   computed: {
     ...mapState([
       'idolDetail'
@@ -35,7 +36,7 @@ export default {
     this.fetchIdol()
   },
   watch: {
-    '$route' (to, from) {
+    '$route' () {
       this.fetchIdol()
     }
   }
