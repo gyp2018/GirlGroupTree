@@ -2,7 +2,7 @@
   <div>
     <h1>Idol Pages</h1>
     <div class="row">
-      <div class="col-4">
+      <div class="col-6">
         <IdolCard :idol="idolDetail.detail" />
       </div>
     </div>

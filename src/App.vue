@@ -1,13 +1,9 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-dark bg-primary">
-      <span class="navbar-brand mb-0 h1">
-        GirlGroup
-      </span>
-    </nav>
-    <div class="container-fluid">
+    <TopNav />
+    <div class="container-fluid mt-5">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 mt-4">
           <GirlGroups />
         </div>
         <div class="col">
@@ -19,12 +15,14 @@
 </template>
 
 <script>
+import TopNav from './components/TopNav.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import GirlGroups from './components/GirlGroups.vue'
 
 export default {
   name: 'app',
   components: {
+    TopNav,
     HelloWorld,
     GirlGroups,
   }
