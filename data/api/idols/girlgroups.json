@@ -1,5 +1,6 @@
 {
-  "girlGroups": [
+  "name": "GirlGroups",
+  "members": [
     {
       "id": "gg1",
       "name": "모모랜드",
