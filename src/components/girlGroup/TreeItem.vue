@@ -8,7 +8,7 @@
     </div>
     <ul v-show="open" v-if="isFolder">
       <TreeItem
-        v-for="(model, index) in model.children"
+        v-for="(model, index) in model.members"
         :model="model"
         :key="index"
       />
@@ -29,7 +29,7 @@ export default {
   },
   computed: {
     isFolder() {
-      return this.model.children && this.model.children.length
+      return this.model.members && this.model.members.length
     }
   },
   methods: {
