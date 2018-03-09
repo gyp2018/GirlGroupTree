@@ -10,18 +10,18 @@ const getters = {}
 
 const actions = {
   fetchIdolDetail ({ commit }, idolKey) {
-    commit(types.REQUEST_IDOL)
+    commit(types.REQUEST_IDOL_DETAIL)
     API.getIdolDetail({ idolKey })
-      .then(idol => commit(types.RECEIVE_IDOL, { idolKey, idol }))
+      .then(idol => commit(types.RECEIVE_IDOL_DETAIL, { idolKey, idol }))
   },
 }
 
 const mutations = {
-  [types.REQUEST_IDOL] (state) {
+  [types.REQUEST_IDOL_DETAIL] (state) {
     state.list = {}
     state.detail = {}
   },
-  [types.RECEIVE_IDOL] (state, { idolKey, idol }) {
+  [types.RECEIVE_IDOL_DETAIL] (state, { idolKey, idol }) {
     state.list[idolKey] = idol
     state.detail = idol
   },
