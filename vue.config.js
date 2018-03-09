@@ -11,14 +11,14 @@ module.exports = {
       new HtmlWebpackPlugin({
         filename: 'index.html',
         template: 'public/index.html',
-        excludeChunks: [ 'login' ]
+        chunks: [ 'app' ],
       }),
       new HtmlWebpackPlugin({
         filename: 'login.html',
         template: 'public/login.html',
-        excludeChunks: [ 'app' ]
+        chunks: [ 'login' ],
       }),
-    ],
+    ]
   },
   devServer: {
     historyApiFallback: true,
