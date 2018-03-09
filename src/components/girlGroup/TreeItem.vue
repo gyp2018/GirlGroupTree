@@ -1,10 +1,12 @@
 <template>
   <li class="item lead">
     <div>
-      {{ model.name }}
       <span v-if="isFolder" v-on:click="toggleOpen">
         [{{ open ? '-' : '+' }}]
       </span>
+      <router-link :to="`/idol/${model.id}`" class="nav-link">
+        {{ model.name }}
+      </router-link>
     </div>
     <ul v-show="open" v-if="isFolder">
       <TreeItem

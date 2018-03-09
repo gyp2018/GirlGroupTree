@@ -26,11 +26,19 @@ export default {
     ...mapActions([
       'fetchIdolDetail',
     ]),
+    fetchIdol() {
+      const { idolKey } = this.$route.params
+      this.fetchIdolDetail(idolKey)
+    },
   },
   mounted() {
-    const { idolKey } = this.$route.params
-    this.fetchIdolDetail(idolKey)
+    this.fetchIdol()
   },
+  watch: {
+    '$route' (to, from) {
+      this.fetchIdol()
+    }
+  }
 }
 </script>
 
