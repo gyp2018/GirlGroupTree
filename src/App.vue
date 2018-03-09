@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-2">
-          <GirlGroupTree class="border" />
+          <GirlGroups />
         </div>
         <div class="col">
           <router-view></router-view>
@@ -20,13 +20,13 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import GirlGroupTree from './components/girlGroup/Tree.vue'
+import GirlGroups from './components/GirlGroups.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    GirlGroupTree,
+    GirlGroups,
   }
 }
 </script>
