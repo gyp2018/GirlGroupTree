@@ -33,6 +33,6 @@ export default {
 ul {
   padding-left: 1em;
   line-height: 1.5em;
-  list-style-type: dot;
+  list-style-type: none;
 }
 </style>

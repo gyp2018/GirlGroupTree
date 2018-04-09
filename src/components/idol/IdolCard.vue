@@ -20,11 +20,9 @@
 export default {
   name: 'IdolCard',
   props: {
-    idol: Object
+    idol: Object,
   },
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

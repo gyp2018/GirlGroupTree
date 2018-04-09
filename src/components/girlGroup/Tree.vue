@@ -29,19 +29,19 @@ const treeData = {
     {
       name: 'god'
     }
-  ]
+  ],
 }
 
 export default {
   name: 'Tree',
   components: {
-    TreeItem
+    TreeItem,
   },
   data() {
     return {
-      treeData
+      treeData,
     }
-  }
+  },
 }
 </script>
 

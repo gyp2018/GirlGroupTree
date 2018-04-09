@@ -22,23 +22,23 @@
 export default {
   name: 'TreeItem',
   props: {
-    model: Object
+    model: Object,
   },
   data() {
     return {
-      open: true
+      open: true,
     }
   },
   computed: {
     isFolder() {
       return this.model.members && this.model.members.length
-    }
+    },
   },
   methods: {
     toggleOpen() {
       this.open = !this.open
-    }
-  }
+    },
+  },
 }
 </script>
 
